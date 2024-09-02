@@ -6,12 +6,18 @@
     color: #1fa9e5;
 }
 
+body, html {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .repeat-img-blue{
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;
     background-size: 40% auto; /* Rimpicciolisce l'immagine a una larghezza di 50px, altezza automatica */
     background-color: #4ea0ff; /* Colore di sfondo di backup */
-    height: 76px; 
+    height: 78px; 
 }
 
 #Title-who-when h1{
@@ -33,38 +39,81 @@ h6{
 
 main{
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 60px;
     max-width: 1200px;
 }
 
 #unordered-list{
-    margin-top: 0px;
+    margin-top: -30px;
     margin-left: 15px;
+    margin-bottom: 30px;
     padding: 0px;  
 }      
 #unordered-list li {
-    margin: 0;         
-    padding: 0;        
+    margin-top: -14px;
+    padding: 0px;        
 }
 
+
+table {
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    width: 100%; 
+}
+.row-blue th{
+    font-weight: normal;
+}
+.row-white th{
+    font-weight: normal;
+}
+
+#thead-table{
+    color: white;
+    background-color: #1fa9e5;
+    text-align: left;
+}
+.row-blue{
+    background-color: #b1e4f2;
+    text-align: left;
+}
+.row-white{
+    font-weight: normal;
+    text-align: left;
+}
+
+#text-under-table{
+    margin-top: 10px;
+}
 
 footer{
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 60px;
     max-width: 1200px;
 }
 
-h1{
-    font-weight: bold;
+#grey-text h3{
+
+}
+
+#potrebbero-interessarti{
+    margin-bottom: 8px;
 }
 
 figure{
+    margin: 0px;
+    padding: 0px;
     position: relative;
     display: inline-block;
-    text-align: center;
+    text-align: left;
 }
+figure img{
+    width: 80%; /* Riduce la larghezza delle immagini al 50% della loro dimensione originale */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+
 figcaption{
-    font-size: 24px;
+    font-size: 18.6px;
     font-weight: bold;
     position: absolute;
     top: 0;
