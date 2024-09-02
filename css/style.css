@@ -26,11 +26,28 @@
     margin-top: 0px;
 }
 
+h6{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 main{
     margin: 0 auto;
     padding: 0 40px;
     max-width: 1200px;
 }
+
+#unordered-list{
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 0px;  
+}      
+#unordered-list li {
+    margin: 0;         
+    padding: 0;        
+}
+
+
 footer{
     margin: 0 auto;
     padding: 0 40px;
