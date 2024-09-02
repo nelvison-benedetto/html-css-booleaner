@@ -5,3 +5,24 @@
 #blue-color{
     color: #1fa9e5;
 }
+header{
+    background-color: #4ea0ff;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+figcaption{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+/*     background: rgba(0, 0, 0, 0.5); /* Sfondo semitrasparente */
+    color: white; 
+    text-align: left;
+}
