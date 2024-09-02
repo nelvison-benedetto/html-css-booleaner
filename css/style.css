@@ -5,11 +5,16 @@
 #blue-color{
     color: #1fa9e5;
 }
-header{
-    background-color: #4ea0ff;
+
+.repeat-img-blue{
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: 40% auto; /* Rimpicciolisce l'immagine a una larghezza di 50px, altezza automatica */
+    background-color: #4ea0ff; /* Colore di sfondo di backup */
+    height: 76px; 
 }
 
-figure {
+figure{
     position: relative;
     display: inline-block;
     text-align: center;
@@ -26,3 +31,6 @@ figcaption{
     color: white; 
     text-align: left;
 }
+
+
+
