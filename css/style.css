@@ -164,11 +164,13 @@ figcaption{
     --bool-secondary : #1fa9e5;
     --bool-secondary-light : #b1e4f2;
     --bool-light : #808080;
+    --blue-dark: #4ea0ff;
 }
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* #region utility classes */
@@ -176,19 +178,13 @@ figcaption{
     width: 85%;
     margin: auto;
 }
-.text_xs{
-    font-size: 0.8rem;
-}
-.py-3{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-.pl-3{
-    padding-left: 1.5rem;
-}
-.w-50{
-    width: 50%;
-}
+.text_xs{font-size: 0.9rem;}
+.py-3{padding: 1.5rem 0rem;}
+.pl-3{padding-left: 1.5rem;}
+.w-50{width: 50%;}
+.mb{margin-bottom: 1.3rem;}
+.mb+{margin-bottom: 3rem;}
+
 .align-left{
     text-align: left;
 }
@@ -198,50 +194,45 @@ figcaption{
 }
 .bg-secondary-light{
     background-color: var(--bool-secondary-light);
-    color: var(--bool-white);
 }
 
+.mt{margin-top: 1rem;}
 
-/* #region header */
 
 .logo{
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    width: 22.3%;
+    padding: 2.4rem 0 ;
 }
 
 #app_header{
-    background-color: var(--bool-secondary);
+    background-color: var(--blue-dark);
     background-image: url("../img/pattern.png");
-    background-size: 300px;
+    background-size: 28.92rem;
+    background-repeat: repeat;
 }
 
 .article_title{
-    font-size: 3rem;
-    margin: 0.5rem 0;
+    font-size: 3.8rem;
+    margin: 1rem 0 0.5rem 0;
 }
 .author_name{
     color: var(--bool-secondary);
 }
-.date{
-    font-size: 0.8rem;
-    color: var(--bool-light);
-}
+
 table{
     border-collapse: collapse;
 }
-
-
-
 .related_article{
     width: 300px;
     height: 240px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .related_article_title{
-    padding: 1rem;
+    font-size: 1.6rem;
+    padding: 0.8rem 1rem;
     color: var(--bool-white);
 }
 
@@ -252,5 +243,17 @@ table{
     background-image: url(../img/graph.jpg);
 }
 
+.editfont1{
+    color: var(--bool-light);
+    font-size: 1.7rem;
+}
+.date{
+    margin-top: -0.1rem;
+    font-size: 1.1rem;
+    color: var(--bool-light);
+}
 
-
+.editwidth1{width: 66%;}
+.editwidth2{width: 56%;}
+.bold{font-weight: bold;}
+.editfont2{font-size: 1.4em; font-weight: bolder; color: var(--bool-light);}
